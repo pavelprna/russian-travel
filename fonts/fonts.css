@@ -2,7 +2,18 @@
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
-  src: url(./Inter/Inter-Regular.woff2) format("woff2");
+  src: url(./Inter/Inter-Regular.woff2) format("woff2"),
+       url(./Inter/Inter-Regular.woff) format("woff");
+
+  /*TODO: add TrueType*/
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  src: url(./Inter/Inter-Black.woff2) format("woff2"),
+       url(./Inter/Inter-Black.woff) format("woff");
 
   /*TODO: add TrueType*/
 }
