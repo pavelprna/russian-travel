@@ -4,3 +4,12 @@
   line-height: 1.2;
   margin: 0 0 64px;
 }
+
+@media screen and (max-width: 767px) {
+  .lead__subtitle {
+    font-size: 16px;
+    line-height: 1.25;
+    margin-bottom: 40px;
+    max-width: 288px;
+  }
+}
