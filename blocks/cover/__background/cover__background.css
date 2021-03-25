@@ -2,3 +2,12 @@
   width: 100%;
   display: block;
 }
+
+@media screen and (max-width: 1279px) {
+  .cover__background {
+    width: 100vw;
+    min-width: 320px;
+    position: relative;
+    left: -48px;
+  }
+}
