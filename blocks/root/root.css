@@ -9,7 +9,3 @@
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
 }
-
-* {
-  outline: 1px dotted rgba(225, 225, 225, .1);
-}
