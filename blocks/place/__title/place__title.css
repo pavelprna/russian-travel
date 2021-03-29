@@ -2,5 +2,21 @@
   font-size: 72px;
   line-height: 1.05;
   font-weight: 900;
-  margin: 0;
+  margin: 80px 0 0;
+}
+
+@media (max-width: 1023px) {
+  .place__title {
+    margin: 73px 0 0;
+    font-size: 42px;
+    line-height: 1.1;
+  }
+}
+
+@media (max-width: 767px) {
+  .place__title {
+    font-size: 32px;
+    line-height: 1.09;
+    margin: 50px 0 0;
+  }
 }

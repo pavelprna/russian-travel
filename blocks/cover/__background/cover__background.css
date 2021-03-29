@@ -3,11 +3,29 @@
   display: block;
 }
 
-@media screen and (max-width: 1279px) {
+@media (max-width: 1279px) {
   .cover__background {
     width: 100vw;
     min-width: 320px;
     position: relative;
     left: -48px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .cover__background {
+    width: 100vw;
+    min-width: 320px;
+    position: relative;
+    left: -24px;
+  }
+}
+
+@media (max-width: 767px) {
+  .cover__background {
+    width: 100vw;
+    min-width: 320px;
+    position: relative;
+    left: -16px;
   }
 }
