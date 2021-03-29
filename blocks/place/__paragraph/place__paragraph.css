@@ -14,3 +14,8 @@
     line-height: 1.63;
   }
 }
+@media (max-width: 767px) {
+  .place__paragraph {
+    padding: 0 16px;
+  }
+}

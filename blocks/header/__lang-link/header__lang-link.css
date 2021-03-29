@@ -1,17 +1,16 @@
 .header__lang-link {
   font-size: 24px;
   line-height: 1.17;
-}
-
-.header__lang-input[type="radio"]:checked + .header__lang-link{
-  border-bottom: 2px solid #fff;
+  margin-left: 18px;
+  color: inherit;
+  text-decoration: none;
 }
 
 .header__lang-link:hover {
   opacity: .8;
 }
 
-@media screen and (max-width: 425px){
+@media (max-width: 767px){
   .header__lang-link {
     font-size: 18px;
     line-height: 1.11;

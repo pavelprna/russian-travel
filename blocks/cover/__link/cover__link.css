@@ -1,6 +1,6 @@
 .cover__link {
   color: inherit;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  text-decoration: none;
 }
