@@ -3,4 +3,17 @@
   grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
   gap: 16px;
   object-fit: cover;
+  padding: 0 48px;
+}
+
+@media (max-width: 1023px) {
+  .photo-grid {
+    padding: 0 24px;
+  }
+}
+
+@media (max-width: 767px) {
+  .photo-grid {
+    padding: 0 16px;
+  }
 }

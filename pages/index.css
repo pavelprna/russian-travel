@@ -12,7 +12,6 @@
 @import url(../blocks/header/__lang-link/header__lang-link.css);
 
 @import url(../blocks/lead/lead.css);
-@import url(../blocks/narrow/narrow.css);
 @import url(../blocks/lead/__title/lead__title.css);
 @import url(../blocks/lead/__subtitle/lead__subtitle.css);
 @import url(../blocks/lead/__figure/lead__figure.css);
@@ -54,3 +53,8 @@
 @import url(../blocks/footer/__menu-item/footer__menu-item.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
+
+
+* {
+  outline: 1px dotted red;
+}
