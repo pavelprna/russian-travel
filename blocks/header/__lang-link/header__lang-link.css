@@ -1,7 +1,10 @@
 .header__lang-link {
   font-size: 24px;
   line-height: 1.17;
-  margin-left: 18px;
+}
+
+.header__lang-input[type="radio"]:checked + .header__lang-link{
+  border-bottom: 2px solid #fff;
 }
 
 @media screen and (max-width: 425px){
