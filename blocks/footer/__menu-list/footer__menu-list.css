@@ -1,4 +1,4 @@
-.footer__menu-items {
+.footer__menu-list {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -6,7 +6,7 @@
 }
 
 @media (max-width: 767px) {
-  .footer__menu-items {
+  .footer__menu-list {
     flex-direction: column;
   }
 }
