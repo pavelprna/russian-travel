@@ -3,7 +3,8 @@
   font-size: 12px;
   line-height: 1.7;
   letter-spacing: 0.2em;
-  margin-bottom: 12px;
+  margin: 0 0 12px;
+  text-transform: uppercase;
 }
 
 @media (max-width: 1023px) {
